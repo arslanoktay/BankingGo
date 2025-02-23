@@ -1,0 +1,11 @@
+build:
+    @go build -o bin/BankingGo
+
+run: build
+    @./bin/BankingGo
+
+test:
+    @go test -v ./...
+
+
+// make run ile program çalışıyor
